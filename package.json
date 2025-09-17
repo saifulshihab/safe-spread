@@ -1,0 +1,32 @@
+{
+  "name": "safe-spread",
+  "version": "1.0.0",
+  "description": "A helper function that updates only the existing keys of an object in JS, deeply merging values without adding new keys.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Saiful Islam",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "javascript",
+    "safe-spread",
+    "spread",
+    "javascript safe spread",
+    "javascript utility"
+  ],
+  "scripts": {
+    "start": "tsx watch ./src/index.ts",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.1.3",
+    "ts-jest": "^29.4.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
