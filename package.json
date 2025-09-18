@@ -7,6 +7,10 @@
   "author": "Saiful Islam",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saifulshihab/safe-spread"
+  },
   "files": [
     "dist"
   ],
