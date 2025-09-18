@@ -1,6 +1,6 @@
 {
   "name": "safe-spread",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A helper function that updates only the existing keys of an object in JS, deeply merging values without adding new keys.",
   "type": "module",
   "license": "MIT",
