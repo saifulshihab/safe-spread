@@ -1,6 +1,6 @@
-import { safeSpread } from "../lib/safe-spread";
+import { safeSpread } from "../src/lib/safe-spread";
 
-test("Regular object spreaded correctly", () => {
+test("Should correctly spread regular objects", () => {
   const obj1 = { name: "John Doe", age: 34 };
   const obj2 = { age: 27, dob: "1998" };
 
@@ -8,7 +8,7 @@ test("Regular object spreaded correctly", () => {
   expect(result).toEqual({ name: "John Doe", age: 27 });
 });
 
-test("Nested level object spreaded correctly", () => {
+test("Should correctly spread nested level objects", () => {
   const obj1 = {
     name: "John Doe",
     age: 34,

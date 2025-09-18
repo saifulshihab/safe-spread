@@ -8,5 +8,4 @@ export default {
   transform: {
     ...tsJestTransformCfg,
   },
-  preset: "ts-jest",
 };

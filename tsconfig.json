@@ -19,5 +19,6 @@
     "esModuleInterop": true,
     "customConditions": ["module"],
     "allowArbitraryExtensions": true
-  }
+  },
+  "exclude": ["test", "dist", "node_modules"]
 }
