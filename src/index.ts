@@ -1,1 +1,1 @@
-export * from "./lib/safe-spread";
+export * from "./lib/merge-safe";

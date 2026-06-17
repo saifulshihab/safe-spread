@@ -1,4 +1,4 @@
-# safe-spread
+# merge-safe
 
 A helper function that updates only the existing keys of an object in JS, deeply merging values without adding new keys.
 
@@ -9,7 +9,7 @@ A helper function that updates only the existing keys of an object in JS, deeply
 ## Usage
 
 ```js
-import { safeSpread } from "safe-spread";
+import { mergeSafe } from "merge-safe";
 
 const base = {
   a: 1,
@@ -29,7 +29,7 @@ const update = {
   },
 };
 
-const result = safeSpread(base, update);
+const result = mergeSafe(base, update);
 
 console.log(result);
 //   {
