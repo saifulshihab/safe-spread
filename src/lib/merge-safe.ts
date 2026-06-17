@@ -1,4 +1,4 @@
-function safeSpread<T>(base: T, update: Partial<T>) {
+function mergeSafe<T>(base: T, update: Partial<T>) {
   if (typeof base !== "object" || base === null) return base;
   if (typeof update !== "object" || update === null) return base;
 
@@ -14,7 +14,7 @@ function safeSpread<T>(base: T, update: Partial<T>) {
         !Array.isArray(base[key]) &&
         !Array.isArray(update[key])
       ) {
-        result[key] = safeSpread(base[key], update[key]) as any;
+        result[key] = mergeSafe(base[key], update[key]) as any;
       } else {
         result[key] = update[key] as any;
       }
@@ -24,4 +24,4 @@ function safeSpread<T>(base: T, update: Partial<T>) {
   return result;
 }
 
-export { safeSpread };
+export { mergeSafe };
