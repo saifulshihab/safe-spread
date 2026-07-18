@@ -1,5 +1,5 @@
 {
-  "name": "merge-safe",
+  "name": "@shiha6/merge-safe",
   "version": "1.0.4",
   "description": "A helper function that updates only the existing keys of an object in JS, deeply merging values without adding new keys.",
   "type": "module",
